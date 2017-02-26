@@ -1,0 +1,98 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:17px;
+}
+/*
+h1{
+    font-family: 'Russo One', sans-serif;
+    background-color: #fff;
+    font-size:50px;
+    color:#3399ff;
+}*/
+.logo{
+    background-color: black;
+    padding-bottom:10px;
+    padding-top:5px;
+}
+.social{
+    background-color:black;
+    font-size:33px;
+    padding:0px 15px;
+}
+.social a{
+    padding:0px 15px;
+}
+
+ul{
+    list-style: none;
+    margin:10px 0px 10px 0px;
+    padding:0px;
+    font-family: 'Russo One', sans-serif;
+}
+
+ul li{
+    display: inline-block;
+    margin:0px 50px 10px 0px;
+}
+.down{
+    margin-top:10px;
+}
+.recent h4{
+    margin-top: 22px;
+    margin-bottom:10px;
+}
+.footer{
+    background-color:#272822;
+    color:#fff;
+    margin-top:30px;
+}
+.achieve{
+    font-family:'Russo One', sans-serif;
+    padding:0px 5px;
+}
+.achieve:hover{
+    background-color: #337db9;
+    display: inline-block;
+    color:white;
+    text-decoration: none;
+
+}
+.menu ul li a{
+    font-family:'Russo One', sans-serif;
+    font-size:25px;
+}
+.menu i{
+    padding-right: 5px;
+}
+.menu:hover{
+    text-decoration:none;
+}
+h2,h3,h4{
+    font-family: 'Russo One', sans-serif;
+}
+
+@media only screen and (max-width: 500px){
+    .social{
+    background-color:white;
+    font-size:28px;
+    padding:0px 5px;
+    text-align: left;
+    }
+    .fa-facebook{
+    color:#3b5998;
+    }
+    .fa-twitter{
+    color:#55acee;
+    }
+    .fa-instagram{
+    color:#262626;
+    }
+    .fa-youtube{
+    color:#e62117;
+    }
+
+
+    .important{
+        display:none;
+    }
+}
